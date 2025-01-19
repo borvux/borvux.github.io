@@ -1,0 +1,45 @@
+.bg {
+  background-color: #1C2026;
+}
+
+.nav-bg {
+  background-color: #0A0B0D;
+}
+
+.work-bg {
+  background-color: #2D3540;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+.profile-img {
+  width: 500px;
+  height: auto;
+}
+
+#about-me {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+#work {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+#projects {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+#contact {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
