@@ -11,8 +11,8 @@ function loadHTML(selector, file) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadHTML("#about-me", "index/about-me.html");
-    loadHTML("#work", "index/work.html");
-    loadHTML("#projects", "index/projects.html");
-    loadHTML("#contact", "index/contact.html");
+    loadHTML("#about-me", "shared/about-me.html");
+    loadHTML("#work", "shared/work.html");
+    loadHTML("#projects", "shared/projects.html");
+    loadHTML("#contact", "shared/contact.html");
 });
