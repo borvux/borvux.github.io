@@ -1,0 +1,8 @@
+- name: index
+  link: /
+- name: project1
+  link: /project1
+- name: project2
+  link: /project2
+- name: project3
+  link: /project3
