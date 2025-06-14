@@ -1,0 +1,40 @@
+<header class="fixed w-full bg-dark-700/90 backdrop-blur-md z-50 border-b border-dark-400">
+	<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+		<a href="{{ site.baseurl }}/" class="text-2xl font-bold text-primary">Benny Joram</a>
+
+		<nav class="hidden md:block">
+			<ul class="flex space-x-8">
+				<li><a href="{{ site.baseurl }}/#about"
+						class="text-sm font-medium hover:text-primary transition-colors duration-300">About</a>
+				</li>
+				<li><a href="{{ site.baseurl }}/#experience"
+						class="text-sm font-medium hover:text-primary transition-colors duration-300">Experience</a></li>
+				<li><a href="{{ site.baseurl }}/#projects"
+						class="text-sm font-medium hover:text-primary transition-colors duration-300">Projects</a></li>
+				<li><a href="{{ site.baseurl }}/#contact"
+						class="text-sm font-medium hover:text-primary transition-colors duration-300">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<button id="mobile-menu-button" class="md:hidden text-dark-100 focus:outline-none">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+			</svg>
+		</button>
+	</div>
+
+	<nav id="mobile-menu" class="hidden md:hidden bg-dark-600 border-b border-dark-400">
+		<ul class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+			<li><a href="{{ site.baseurl }}/#about"
+					class="block text-sm font-medium hover:text-primary transition-colors duration-300">About</a>
+			</li>
+			<li><a href="{{ site.baseurl }}/#experience"
+					class="block text-sm font-medium hover:text-primary transition-colors duration-300">Experience</a></li>
+			<li><a href="{{ site.baseurl }}/#projects"
+					class="block text-sm font-medium hover:text-primary transition-colors duration-300">Projects</a></li>
+			<li><a href="{{ site.baseurl }}/#contact"
+					class="block text-sm font-medium hover:text-primary transition-colors duration-300">Contact</a></li>
+		</ul>
+	</nav>
+</header>
