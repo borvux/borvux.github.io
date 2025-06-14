@@ -1,0 +1,108 @@
+---
+layout: default
+title: project3
+---
+<section class="py-24 sm:py-32 bg-dark-700 text-dark-100">
+  <div class="container mx-auto px-4">
+
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 md:mb-0">License Plate Detection</h1>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/borvux/license-plate-detection" target="_blank"
+          class="inline-flex items-center px-4 py-2 bg-transparent text-primary font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300">
+          <i class="fab fa-github mr-2"></i>
+          <span>View Code</span>
+        </a>
+        <a href="#"
+          class="inline-flex items-center px-4 py-2 bg-dark-500 text-dark-300 font-medium rounded border border-dark-400 cursor-not-allowed">
+          <i class="fas fa-external-link-alt mr-2"></i>
+          <span>No Demo</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="mb-16 rounded-lg overflow-hidden shadow-2xl bg-dark-900 border border-dark-400">
+      <video src="{{ '/assets/project3/output.mp4' | relative_url }}" class="w-full" controls autoplay muted loop>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-x-12 gap-y-16">
+
+      <div class="lg:col-span-1">
+        <div class="bg-dark-600 rounded-lg p-6 shadow-lg lg:sticky lg:top-24">
+          <h3 class="text-xl font-bold mb-4 border-b border-primary/20 pb-3">Project Overview</h3>
+          <p class="text-dark-200 mb-6 text-sm">
+            A machine learning project that leverages deep learning and computer vision to automatically detect and read
+            characters from license plates in images and videos.
+          </p>
+
+          <h3 class="text-xl font-bold mb-4 border-b border-primary/20 pb-3">Technologies Used</h3>
+          <ul class="flex flex-wrap gap-2 mb-6">
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">Python</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">YOLOv8</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">EasyOCR</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">OpenCV</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">PyTorch</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">Matplotlib</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mb-4 border-b border-primary/20 pb-3">Key Features</h3>
+          <ul class="text-dark-200 space-y-3 text-sm">
+            <li class="flex items-start"><i
+                class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>High-accuracy object detection with a
+                trained YOLOv8 model.</span></li>
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Optical
+                Character Recognition (OCR) to extract plate text.</span></li>
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Advanced
+                image preprocessing pipeline with OpenCV.</span></li>
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Real-time
+                detection capabilities on video streams.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lg:col-span-2">
+
+        <div class="mb-12">
+          <h3 class="text-2xl font-bold mb-4">The Challenge</h3>
+          <p class="text-dark-200 leading-relaxed">
+            Manually identifying and logging license plate information from images or video footage is slow,
+            labor-intensive, and prone to human error. An automated system must be robust enough to handle various
+            real-world conditions like different angles, lighting, and plate formats.
+          </p>
+        </div>
+
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-4">My Solution</h3>
+          <p class="text-dark-200 leading-relaxed mb-6">
+            I built a complete pipeline in Python to solve this. First, a YOLOv8 (You Only Look Once) object detection
+            model, which I trained on a custom dataset, identifies the location of license plates in each frame. The
+            detected plate region is then passed to EasyOCR, a powerful optical character recognition library, which
+            extracts the alphanumeric characters. The entire process is optimized for accuracy and speed.
+          </p>
+          <div class="bg-dark-500/50 border border-primary/20 rounded-lg p-6 flex items-center">
+            <i class="fas fa-lightbulb text-primary text-4xl mr-6"></i>
+            <div>
+              <h4 class="font-bold text-lg">Core Idea</h4>
+              <p class="text-dark-200">Combine a state-of-the-art object detector with a specialized text reader to
+                create a fast and accurate license plate recognition system.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="flex flex-col sm:flex-row justify-between items-center mt-24 pt-8 border-t border-dark-400 gap-4">
+      <a href="project2.html" class="flex items-center text-dark-200 hover:text-primary transition-colors duration-300">
+        <i class="fas fa-arrow-left mr-2"></i> Previous Project
+      </a>
+      <a href="/#projects"
+        class="flex items-center px-4 py-2 rounded-md bg-dark-500 text-dark-100 hover:text-primary transition-colors duration-300">
+        <i class="fas fa-th-large mr-2"></i> All Projects
+      </a>
+      <div class="hidden sm:flex"></div>
+    </div>
+  </div>
+</section>

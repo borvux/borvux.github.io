@@ -1,0 +1,121 @@
+---
+layout: default
+title: project1
+---
+<section class="py-24 sm:py-32 bg-dark-700 text-dark-100">
+  <div class="container mx-auto px-4">
+
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 md:mb-0">MentE Platform</h1>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/DPI-Group-Project/MentorshipPlatform" target="_blank"
+          class="inline-flex items-center px-4 py-2 bg-transparent text-primary font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300">
+          <i class="fab fa-github mr-2"></i>
+          <span>View Code</span>
+        </a>
+        <a href="#"
+          class="wip-notice inline-flex items-center px-4 py-2 bg-primary text-secondary font-medium rounded hover:bg-transparent hover:text-primary border border-primary transition-colors duration-300">
+          <i class="fas fa-external-link-alt mr-2"></i>
+          <span>Live Demo</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="mb-16 rounded-lg overflow-hidden shadow-2xl bg-dark-600">
+      <img src="{{ '/assets/project1/landing-page.PNG' | relative_url }}" alt="MentE application landing page"
+        class="w-full">
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-x-12 gap-y-16">
+
+      <div class="lg:col-span-1">
+        <div class="bg-dark-600 rounded-lg p-6 shadow-lg lg:sticky lg:top-24">
+          <h3 class="text-xl font-bold mb-4 border-b border-primary/20 pb-3">Project Overview</h3>
+          <p class="text-dark-200 mb-6 text-sm">
+            MentE is a full-stack web application built for educational organizations to streamline and manage their
+            mentorship programs effectively.
+          </p>
+
+          <h3 class="text-xl font-bold mb-4 border-b border-primary/20 pb-3">Technologies Used</h3>
+          <ul class="flex flex-wrap gap-2 mb-6">
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">Ruby on Rails</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">PostgreSQL</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">Tailwind CSS</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">JavaScript</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">Azure</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-xs font-medium">Docker</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mb-4 border-b border-primary/20 pb-3">Key Features</h3>
+          <ul class="text-dark-200 space-y-3 text-sm">
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Automated
+                mentor matching algorithm.</span></li>
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Role-based
+                dashboards for Admins, Mentors, and Mentees.</span></li>
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Meeting
+                tracking and quality monitoring.</span></li>
+            <li class="flex items-start"><i class="fas fa-check-circle text-primary w-4 mr-3 mt-1"></i><span>Secure user
+                authentication and authorization.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lg:col-span-2">
+
+        <div class="mb-12">
+          <h3 class="text-2xl font-bold mb-4">The Challenge</h3>
+          <p class="text-dark-200 leading-relaxed">
+            Educational institutions often struggle with the administrative overhead of running mentorship programs.
+            Tracking pairings, monitoring meeting quality, and ensuring a good match between mentors and mentees is
+            often a manual, time-consuming process prone to error and inefficiency.
+          </p>
+        </div>
+
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-4">My Solution</h3>
+          <p class="text-dark-200 leading-relaxed mb-6">
+            I was part of a team that engineered MentE, a centralized platform that automates the entire mentorship
+            lifecycle. The application allows administrators to easily oversee the program, helps mentees find the right
+            guidance, and empowers mentors to contribute effectively without getting bogged down in busywork.
+          </p>
+          <div class="bg-dark-500/50 border border-primary/20 rounded-lg p-6 flex items-center">
+            <i class="fas fa-lightbulb text-primary text-4xl mr-6"></i>
+            <div>
+              <h4 class="font-bold text-lg">Core Idea</h4>
+              <p class="text-dark-200">Create a seamless, data-driven experience that connects the right people and
+                provides clear visibility into program success.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold mb-6">Application Gallery</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="rounded-lg overflow-hidden border border-dark-400 shadow-md">
+              <img src="{{ '/assets/project1/admin-page.PNG' | relative_url }}" alt="MentE Admin Dashboard"
+                class="w-full">
+              <p class="p-3 text-xs bg-dark-600 text-center">Admin Dashboard</p>
+            </div>
+            <div class="rounded-lg overflow-hidden border border-dark-400 shadow-md">
+              <img src="{{ '/assets/project1/mentee-page.PNG' | relative_url }}" alt="MentE Mentee View" class="w-full">
+              <p class="p-3 text-xs bg-dark-600 text-center">Mentee Mentor Selection</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="flex flex-col sm:flex-row justify-between items-center mt-24 pt-8 border-t border-dark-400 gap-4">
+      <div class="hidden sm:flex"></div>
+
+      <a href="/#projects"
+        class="flex items-center px-4 py-2 rounded-md bg-dark-500 text-dark-100 hover:text-primary transition-colors duration-300">
+        <i class="fas fa-th-large mr-2"></i> All Projects
+      </a>
+      <a href="project2.html" class="flex items-center text-dark-200 hover:text-primary transition-colors duration-300">
+        Next Project <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </div>
+</section>
