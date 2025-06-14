@@ -1,3 +1,8 @@
 title: Benny's portfolio
 baseurl: ""
 url: "https://borvux.github.io" 
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
