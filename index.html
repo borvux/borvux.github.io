@@ -1,0 +1,309 @@
+---
+layout: default
+title: index
+---
+<section id="hero" class="min-h-screen flex items-center pt-16">
+  <div class="container mx-auto px-4">
+    <div class="max-w-3xl">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Hi, I'm <span class="text-primary">Benny Joram</span>
+      </h1>
+      <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6">Full-Stack Developer</h2>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#projects"
+          class="px-6 py-3 bg-primary text-secondary font-medium rounded hover:bg-transparent hover:text-primary border border-primary transition-colors duration-300 text-center">View
+          My Work</a>
+        <a href="#contact"
+          class="px-6 py-3 bg-transparent text-primary font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300 text-center">Contact
+          Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="py-20">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 relative">
+      About Me
+      <span class="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary"></span>
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-12 items-start">
+      <div class="md:col-span-1">
+        <div class="relative w-full max-w-sm mx-auto mb-8">
+          <div class="aspect-square rounded-full overflow-hidden border-4 border-primary shadow-xl">
+            <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="Benny's headshot"
+              class="w-full h-full object-cover">
+          </div>
+          <div class="absolute -z-10 top-4 left-4 w-full h-full rounded-full border-2 border-primary/30"></div>
+        </div>
+      </div>
+
+      <div class="md:col-span-2 text-dark-200">
+        <p class="my-6">Hello! I'm a developer specializing in crafting robust web and mobile applications. As a
+          first-generation college graduate from Myanmar (Burma), I bring a distinct perspective and a dedicated work
+          ethic to every challenge. My expertise lies in turning complex problems into clean, efficient, and elegant
+          code. Outside of my professional life, I’m an avid soccer player, guitarist, and dog owner.</p>
+        <div class="mb-8">
+          <h3 class="text-xl font-bold mb-4 text-dark-100">Programming Languages</h3>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Ruby</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">HTML</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">CSS</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">JavaScript</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Python</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">SQL</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Java</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">C</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">C++</li>
+          </ul>
+        </div>
+        <div class="mb-8">
+          <h3 class="text-xl font-bold mb-4 text-dark-100">Frameworks & Tools</h3>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Ruby on Rails</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Sinatra</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Bootstrap</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Azure</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">AWS</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">NumPy</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Pandas</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">JDBC</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Scikit-learn</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">TensorFlow</li>
+            <li class="px-3 py-1 bg-dark-500 rounded text-sm">Matplotlib</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="py-20 bg-dark-600">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 relative">
+      Experience
+      <span class="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary"></span>
+    </h2>
+
+    <div class="max-w-3xl mx-auto">
+      <div class="timeline-item relative pl-8 pb-12">
+        <div class="timeline-dot"></div>
+        <div class="bg-dark-500 rounded-lg p-6 shadow-lg">
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+            <h3 class="text-xl font-bold">Software Developer Technical Associate</h3>
+            <span class="text-primary font-medium">Feb 2024 - Present</span>
+          </div>
+          <h4 class="text-lg text-primary mb-4">Discovery Partners Institute</h4>
+          <p class="text-dark-200 mb-4">Mentor and support 30+ trainees through a remote pre‑apprenticeship and a
+            26‑week full‑stack development training program, providing project assistance, monitoring progress, and
+            maintaining a 90% attendance rate.</p>
+          <ul class="list-disc list-inside text-dark-200">
+            <li>Develop and maintain a comprehensive dashboard that tracks attendance, migrates 3 key servers to Azure,
+              and integrates various Azure services.</li>
+            <li>Leverage technical expertise in 4+ programming languages to manage over 20 GitHub repositories and drive
+              a 20% increase in trainee performance.</li>
+            <li>Drove a code optimization initiative, enhancing application efficiency and reliability by 20%.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item relative pl-8 pb-12">
+        <div class="timeline-dot"></div>
+        <div class="bg-dark-500 rounded-lg p-6 shadow-lg">
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+            <h3 class="text-xl font-bold">Assistant Instructor</h3>
+            <span class="text-primary font-medium">Jan 2024 - Present</span>
+          </div>
+          <h4 class="text-lg text-primary mb-4">University of Chicago</h4>
+          <p class="text-dark-200 mb-4">Supporting 50+ students mastering web development fundamentals, including Ruby,
+            Rails, HTML, and SQL, through lab sessions, Zoom office hours, and a custom Q&A platform.</p>
+          <ul class="list-disc list-inside text-dark-200">
+            <li>Contributing to course success by preparing project starter code.</li>
+            <li>Offering feedback on assignments and lectures.</li>
+            <li>Supporting students through capstone project development.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item relative pl-8 pb-12">
+        <div class="timeline-dot"></div>
+        <div class="bg-dark-500 rounded-lg p-6 shadow-lg">
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+            <h3 class="text-xl font-bold">Software Developer Apprentice</h3>
+            <span class="text-primary font-medium">May 2023 - Jan 2024</span>
+          </div>
+          <h4 class="text-lg text-primary mb-4">Discovery Partners Institute</h4>
+          <p class="text-dark-200 mb-4">Participated in a software development apprenticeship program, acquiring over
+            450 hours of practical experience in full SDLC, from concept to deployment.</p>
+          <ul class="list-disc list-inside text-dark-200">
+            <li>Developed and deployed projects using Git, GitHub, Visual Studio Code, and Ruby on Rails.</li>
+            <li>Participated in code reviews and improved coding skills.</li>
+            <li>Assisted in database design and implementation.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item relative pl-8">
+        <div class="timeline-dot"></div>
+        <div class="bg-dark-500 rounded-lg p-6 shadow-lg">
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+            <h3 class="text-xl font-bold">Front-End Services</h3>
+            <span class="text-primary font-medium">June 2022 - April 2023</span>
+          </div>
+          <h4 class="text-lg text-primary mb-4">Walmart</h4>
+          <p class="text-dark-200 mb-4">Resolved customer returns with professionalism and applied technical expertise
+            to assist with diverse technology needs, ensuring satisfaction and efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-20">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 relative">
+      Projects
+      <span class="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary"></span>
+    </h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        class="bg-dark-600 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2">
+        <div class="overflow-hidden h-48">
+          <img src="{{ '/assets/project1/mente-logo.svg' | relative_url }}" alt="Mente logo"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-105">
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">MentE</h3>
+          <p class="text-dark-200 mb-4">MentE is an app built for educational organizations with mentorship programs.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Rails</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Tailwind</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">JavaScript</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">PostgreSQL</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <a href="project1.html"
+              class="px-3 py-1 bg-primary text-secondary text-sm font-medium rounded hover:bg-transparent hover:text-primary border border-primary transition-colors duration-300">View
+              Details</a>
+            <a href="https://github.com/DPI-Group-Project/MentorshipPlatform" target="_blank"
+              class="px-3 py-1 bg-transparent text-primary text-sm font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300"><i
+                class="fab fa-github mr-1"></i> Code</a>
+            <a href="#"
+              class="px-3 py-1 bg-transparent text-primary text-sm font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300 wip-notice"><i
+                class="fas fa-external-link-alt mr-1"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-dark-600 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2">
+        <div class="overflow-hidden h-48">
+          <img src="{{ '/assets/images/music.svg' | relative_url }}" alt="Music-Tabs picture"
+            class="w-full h-full object-fit transition-transform duration-500 hover:scale-105">
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Music-Tabs</h3>
+          <p class="text-dark-200 mb-4">A user-friendly web application designed to manage song tabs efficiently.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Rails</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Bootstrap</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">JavaScript</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">PostgreSQL</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <a href="project2.html"
+              class="px-3 py-1 bg-primary text-secondary text-sm font-medium rounded hover:bg-transparent hover:text-primary border border-primary transition-colors duration-300">View
+              Details</a>
+            <a href="https://github.com/borvux/music-tabs" target="_blank"
+              class="px-3 py-1 bg-transparent text-primary text-sm font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300"><i
+                class="fab fa-github mr-1"></i> Code</a>
+            <a href="https://music-tabs.lol/" target="_blank"
+              class="px-3 py-1 bg-transparent text-primary text-sm font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300"><i
+                class="fas fa-external-link-alt mr-1"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-dark-600 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2">
+        <div class="overflow-hidden h-48">
+          <img src="{{ '/assets/images/plate.svg' | relative_url }}" alt="License Plate"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-105">
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">License Plate Detection</h3>
+          <p class="text-dark-200 mb-4">Using YOLOv8 and EasyOCR to detect and read the characters off the license
+            plates.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Python</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Ultralytics</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Matplotlib</span>
+            <span class="px-2 py-1 bg-dark-500 rounded text-xs">Torchvision</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <a href="project3.html"
+              class="px-3 py-1 bg-primary text-secondary text-sm font-medium rounded hover:bg-transparent hover:text-primary border border-primary transition-colors duration-300">View
+              Details</a>
+            <a href="https://github.com/borvux/license-plate-detection" target="_blank"
+              class="px-3 py-1 bg-transparent text-primary text-sm font-medium rounded hover:bg-primary/10 border border-primary transition-colors duration-300"><i
+                class="fab fa-github mr-1"></i> Code</a>
+            <a
+              class="px-3 py-1 bg-transparent text-primary text-sm font-medium rounded border border-primary transition-colors duration-300 opacity-50 cursor-not-allowed"><i
+                class="fas fa-external-link-alt mr-1"></i> Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-20 bg-dark-600">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 relative">
+      Contact Me
+      <span class="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-16 h-1 bg-primary"></span>
+    </h2>
+
+    <div class="max-w-lg mx-auto text-center">
+      <div>
+        <p class="text-dark-200 mb-8">I'm always interested in hearing about new projects and opportunities. Feel free
+          to reach out if you'd like to connect!</p>
+
+        <div class="space-y-4 mb-8">
+          <div class="flex items-center justify-center">
+            <i class="fas fa-envelope text-primary w-8"></i>
+            <a href="mailto:bennyjoram@gmail.com"
+              class="text-dark-200 hover:text-primary transition-colors duration-300">bennyjoram@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="flex space-x-4 justify-center">
+          <a href="https://github.com/borvux" aria-label="GitHub" target="_blank"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-500 text-dark-100 hover:bg-primary hover:text-secondary transition-colors duration-300">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/benny-joram/" aria-label="LinkedIn" target="_blank"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-500 text-dark-100 hover:bg-primary hover:text-secondary transition-colors duration-300">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://docs.google.com/document/d/134osKblPGvAybOJ3yDlViBFpJyOedmhT/edit?usp=sharing&ouid=107702966865310920989&rtpof=true&sd=true"
+            aria-label="Resume" target="_blank"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-500 text-dark-100 hover:bg-primary hover:text-secondary transition-colors duration-300">
+            <i class="fas fa-address-card"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="relative py-12 md:py-8 border-t border-dark-400">
+	<div class="container mx-auto px-4">
+		<a href="#hero" aria-label="Back to top"
+			class="absolute left-1/2 -translate-x-1/2 -top-5 bg-primary text-secondary w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-80 transition-all duration-300 transform hover:-translate-y-1">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+	</div>
+</footer>
