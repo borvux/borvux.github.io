@@ -17,6 +17,16 @@
 	--container-width: 1200px;
 }
 
+#mobile-menu {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease-in-out;
+}
+
+#mobile-menu.menu-open {
+	max-height: 500px;
+}
+
 * {
 	margin: 0;
 	padding: 0;
